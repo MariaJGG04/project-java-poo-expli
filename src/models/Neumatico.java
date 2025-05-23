@@ -20,4 +20,24 @@ public class Neumatico {
         System.err.println("Tamaño: " + tamaño);
         System.err.println("Presion: " + presion);
     }
+
+    public String getmarca(){
+        return marca;
+    }
+    public String gettamaño(){
+        return tamaño;
+    }
+    public String getpresion(){
+        return presion;
+    }
+
+    public void setmarca(String marca){
+        this.marca = marca;
+    }
+    public void settamaño(String tamaño){
+        this.tamaño = tamaño;
+    }
+    public void setpresion(String presion){
+        this.presion = presion;
+    }
 }

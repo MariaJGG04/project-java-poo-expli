@@ -17,4 +17,18 @@ public class Mantenimiento {
         System.err.println("historial: " + historial);
         System.err.println("programacion: " + programacion);
     }
+
+    public String gethistorial() {
+        return historial;
+    }
+    public String getprogramacion() {
+        return programacion;
+    }
+
+    public void sethistorial(String historial) {
+        this.historial = historial;
+    }
+    public void setprogramacion(String programacion) {
+        this.programacion = programacion;
+    }
 }

@@ -20,4 +20,24 @@ public class SistemaElectrico {
         System.err.println("Luces: " + luces);
         System.err.println("Sensores: " + sensores);
     }
+
+    public String getbateria(){
+        return bateria;
+    }
+    public String getluces(){
+        return luces;
+    }
+    public String getsensores(){
+        return sensores;
+    }
+
+    public void setbateria(String bateria){
+        this.bateria = bateria;
+    }
+    public void setluces(String luces){
+        this.luces = luces;
+    }
+    public void setsensores(String sensores){
+        this.sensores = sensores;
+    }
 }

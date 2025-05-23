@@ -20,4 +20,24 @@ public class Transmision<Int> {
         System.err.println("Marchas: " + marchas);
         System.err.println("Traccion: " + traccion);
     }
+
+    public String gettipo(){
+        return tipo;
+    }
+    public Int getmarchas(){
+        return marchas;
+    }
+    public String gettraccion(){
+        return traccion;
+    }
+
+    public void settipo (String tipo){
+        this.tipo = tipo;
+    }
+    public void setmarchas (Int marchas){
+        this.marchas = marchas;
+    }
+    public void settraccion (String traccion){
+        this.traccion = traccion;
+    }
 }

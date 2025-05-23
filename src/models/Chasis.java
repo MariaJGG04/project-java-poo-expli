@@ -20,4 +20,24 @@ public class Chasis {
         System.err.println("Dimensiones: " + dimensiones);
         System.err.println("Peso: " + peso);
     }
+
+    public String gettipo() {
+        return tipo;
+    }
+    public String getdimensiones() {
+        return dimensiones;
+    }
+    public String getpeso() {
+        return peso;
+    }
+
+    public void settipo(String tipo) {
+        this.tipo = tipo;
+    }
+    public void setdimensiones(String dimensiones) {
+        this.dimensiones = dimensiones;
+    }
+    public void setpeso(String peso) {
+        this.peso = peso;
+    }
 }
